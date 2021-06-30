@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header class="home-box custom-box" id="info-box">
+        <h1> Multiple Choice Questionnaire </h1>
+        <p> Total Number of Question: <span> 5</span> </p>
+        <button type="button" id="start">Start Quiz</button>
+    </header>
+
+    <main>
+        <section class="quiz-box custom-box" style="display: none;">
+            <h2 id="timer"> Timer</h2>
+            <p id="question"></p>
+            <div id="multiplechoices"></div>
+            <p id="correctAnswer"></p>
+            <p id="answerText"></p><br>
+            <button id="submit">Next</button><br>
+        </section>
+        <section class="result-box custom-box" style="display: none;">
+            <h4 id="gameover"></h4>
+            <p id="score"> </p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
